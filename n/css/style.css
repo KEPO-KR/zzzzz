@@ -1,0 +1,150 @@
+@import "font.css";
+@keyframes motion {
+	0% {margin-top: 350px;}
+	100% {margin-top: 355px;}
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.box {
+	animation: fadein 3s 2s;
+-moz-animation: fadein 3s 2s; /* Firefox */
+-webkit-animation: fadein 3s 2s; /* Safari and Chrome */
+-o-animation: fadein 3s 2s; /* Opera */
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  border-bottom: 1px solid #ddd;
+}
+h1 {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+h2 {
+  font-size: 25px;
+}
+table {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+  border-top: 2px solid #0f66de;
+}
+tr {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+th {
+  background-color: #fafcfc;
+  height: 40px;
+	box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-bottom: 0;
+  border-top: 0;
+  width: 20%;
+  font-size: 25px;
+  line-height: 40px;
+  position: relative;
+}
+td {
+  position: relative;
+  border: 1px solid #ddd;
+  width: 20%;
+  color: #666;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.td {
+position: relative;
+width: 60%;
+}
+.ok {
+  margin-top: 30px;
+  border: 1px solid #ddd;
+}
+.manu {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #ddd;
+}
+.side {
+  transition-duration: 2s;
+  text-align: center;
+  position: absolute;
+  margin: 0;
+  line-height: 50px;
+  height: 100%;
+  width: 20%;
+  color: #666;
+  font-size: 18px;
+  font-weight: 400;
+  border-left:1px solid #ddd;
+}
+.side:hover {
+  background-color: #0f66de;
+  color: white;
+}
+.main {
+  text-align: center;
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+#a {
+  margin-left: 10%;
+}
+#b {
+  margin-left: 30%;
+}
+#c {
+  margin-left: 50%;
+}
+#d {
+  margin-left: 70%;
+  border-right:1px solid #ddd;
+  margin-right: 10%;
+}
+#o {
+  border-top: 1px solid #ddd;
+}
+#t {
+  border-bottom: 1px solid #ddd;
+}
